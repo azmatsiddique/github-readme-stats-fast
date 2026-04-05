@@ -13,10 +13,20 @@ const fetchWakatimeStats = async ({ username, api_domain }) => {
   }
 
   try {
+    const config = {};
+    if (process.env.WAKATIME_API_KEY) {
+      config.headers = {
+        Authorization: `Basic ${Buffer.from(
+          process.env.WAKATIME_API_KEY,
+        ).toString("base64")}`,
+      };
+    }
+
     const { data } = await axios.get(
       `https://${
         api_domain ? api_domain.replace(/\/$/gi, "") : "wakatime.com"
       }/api/v1/users/${username}/stats?is_including_today=true`,
+      config,
     );
 
     return data.data;
