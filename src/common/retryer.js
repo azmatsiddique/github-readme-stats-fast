@@ -3,9 +3,15 @@ import { CustomError, logger } from "./utils.js";
 // Script variables.
 
 // Count the number of GitHub API tokens available.
-const PATs = Object.keys(process.env).filter((key) =>
+let PATs = Object.keys(process.env).filter((key) =>
   /PAT_\d*$/.exec(key),
 ).length;
+
+// If no PATs are found, but PAT_1 or GITHUB_TOKEN exists, set it to 1.
+if (PATs === 0 && (process.env.PAT_1 || process.env.GITHUB_TOKEN)) {
+  PATs = 1;
+}
+
 const RETRIES = process.env.NODE_ENV === "test" ? 7 : PATs;
 
 /**
