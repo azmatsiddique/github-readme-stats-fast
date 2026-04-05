@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "https://githubreadmestatsfast.vercel.app"
+      "destination": "https://github.com/azmatsiddique/github-readme-stats-fast"
     }
   ]
 }

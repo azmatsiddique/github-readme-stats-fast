@@ -82,7 +82,7 @@ Copy and paste this into your markdown, and that's it. Simple!
 Change the `?username=` value to your GitHub username.
 
 ```md
-[![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005)](https://github.com/pranesh-2005/github-readme-stats-fast)
+[![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique)](https://github.com/pranesh-2005/github-readme-stats-fast)
 ```
 
 > [!WARNING]\
@@ -93,11 +93,11 @@ Change the `?username=` value to your GitHub username.
 
 | Card Name | Example API URL | CACHE SECONDS VALUE|
 | --- | --- | --- |
-| User Stats Card | ``` api/?username=Pranesh-2005``` | 600 seconds (Refreshes every 10 minute) |
-| Top Languages Card | ``` api/top-langs/?username=Pranesh-2005``` | 1 day (Refreshes every day) |
-| Streak Card | ``` api/streak/?username=Pranesh-2005``` | 1 hour (Refreshes every 1 hour) | 
-| WakaTime Card| ``` api/wakatime/?username=PraneshJs``` | 1 day (Refreshes every day) |
-| Repo Pin Card | ``` api/pin/?username=Pranesh-2005&repo=github-readme-stats-fast``` | 7 days (Refreshes every week) |
+| User Stats Card | ``` api/?username=azmatsiddique``` | 600 seconds (Refreshes every 10 minute) |
+| Top Languages Card | ``` api/top-langs/?username=azmatsiddique``` | 1 day (Refreshes every day) |
+| Streak Card | ``` api/streak/?username=azmatsiddique``` | 1 hour (Refreshes every 1 hour) | 
+| WakaTime Card| ``` api/wakatime/?username=azmatsiddique``` | 1 day (Refreshes every day) |
+| Repo Pin Card | ``` api/pin/?username=azmatsiddique&repo=github-readme-stats-fast``` | 7 days (Refreshes every week) |
 | Gist Card | ``` api/gist?id=1345eef09799d4e6ac4c9cce08805875``` | 1 week (Refreshes every week) |
 
 > [!NOTE]\
@@ -110,7 +110,7 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 > Options: `&hide=stars,commits,prs,issues,contribs`
 
 ```md
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=pranesh-2005&hide=contribs,prs)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=pranesh-2005&hide=contribs,prs)
 ```
 
 ### Showing additional individual stats
@@ -120,7 +120,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 > Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
 
 ```md
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=pranesh-2005&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=pranesh-2005&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 ```
 
 ### Showing icons
@@ -128,7 +128,7 @@ You can pass a query parameter `&show=` to show any specific additional stats wi
 To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
 ```md
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true)
 ```
 
 ### Themes
@@ -138,7 +138,7 @@ With inbuilt themes, you can customize the look of the card without doing any [m
 Use `&theme=THEME_NAME` parameter like so :
 
 ```md
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true&theme=radical)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true&theme=radical)
 ```
 
 #### All inbuilt themes
@@ -151,8 +151,8 @@ You can look at a preview for [all available themes](themes/README.md) or checko
 
 #### Responsive Card Theme
 
-[![Pranesh's GitHub stats-Dark](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/Pranesh-2005/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
-[![Pranesh's GitHub stats-Light](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/Pranesh-2005/github-readme-stats#responsive-card-theme#gh-light-mode-only)
+[![Azmat's GitHub stats-Dark](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/azmatsiddique/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
+[![Azmat's GitHub stats-Light](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/azmatsiddique/github-readme-stats#responsive-card-theme#gh-light-mode-only)
 
 Since GitHub will re-upload the cards and serve them from their [CDN](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-anonymized-urls), we can not infer the browser/GitHub theme on the server side. There are, however, four methods you can use to create dynamics themes on the client side.
 
@@ -161,13 +161,13 @@ Since GitHub will re-upload the cards and serve them from their [CDN](https://do
 We have included a `transparent` theme that has a transparent background. This theme is optimized to look good on GitHub's dark and light default themes. You can enable this theme using the `&theme=transparent` parameter like so:
 
 ```md
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true&theme=transparent)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true&theme=transparent)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&show_icons=true\&theme=transparent)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&show_icons=true\&theme=transparent)
 
 </details>
 
@@ -176,13 +176,13 @@ We have included a `transparent` theme that has a transparent background. This t
 You can use the `bg_color` parameter to make any of [the available themes](themes/README.md) transparent. This is done by setting the `bg_color` to a color with a transparent alpha channel (i.e. `bg_color=00000000`):
 
 ```md
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true&bg_color=00000000)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true&bg_color=00000000)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&show_icons=true\&bg_color=00000000)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&show_icons=true\&bg_color=00000000)
 
 </details>
 
@@ -191,15 +191,15 @@ You can use the `bg_color` parameter to make any of [the available themes](theme
 You can use [GitHub's theme context](https://github.blog/changelog/2021-11-24-specify-theme-context-for-images-in-markdown/) tags to switch the theme based on the user GitHub theme automatically. This is done by appending `#gh-dark-mode-only` or `#gh-light-mode-only` to the end of an image URL. This tag will define whether the image specified in the markdown is only shown to viewers using a light or a dark GitHub theme:
 
 ```md
-[![Pranesh's GitHub stats-Dark](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/Pranesh-2005/github-readme-stats#gh-dark-mode-only)
-[![Pranesh's GitHub stats-Light](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/Pranesh-2005/github-readme-stats#gh-light-mode-only)
+[![Azmat's GitHub stats-Dark](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/azmatsiddique/github-readme-stats#gh-dark-mode-only)
+[![Azmat's GitHub stats-Light](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/azmatsiddique/github-readme-stats#gh-light-mode-only)
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-[![Pranesh's GitHub stats-Dark](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/Pranesh-2005/github-readme-stats#gh-dark-mode-only)
-[![Pranesh's GitHub stats-Light](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/Pranesh-2005/github-readme-stats#gh-light-mode-only)
+[![Azmat's GitHub stats-Dark](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&show_icons=true\&theme=dark#gh-dark-mode-only)](https://github.com/azmatsiddique/github-readme-stats#gh-dark-mode-only)
+[![Azmat's GitHub stats-Light](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&show_icons=true\&theme=default#gh-light-mode-only)](https://github.com/azmatsiddique/github-readme-stats#gh-light-mode-only)
 
 </details>
 
@@ -210,14 +210,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 ```html
 <picture>
   <source
-    srcset="https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true&theme=dark"
+    srcset="https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true"
+    srcset="https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true" />
 </picture>
 ```
 
@@ -226,14 +226,14 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 
 <picture>
   <source
-    srcset="https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true&theme=dark"
+    srcset="https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true"
+    srcset="https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005&show_icons=true" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique&show_icons=true" />
 </picture>
 
 </details>
@@ -384,10 +384,10 @@ Yay! You are no longer limited to 6 pinned repositories.
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/pin?username=Pranesh-2005&repo=github-readme-stats`
+Endpoint: `api/pin?username=azmatsiddique&repo=github-readme-stats`
 
 ```md
-[![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=Pranesh-2005&repo=github-readme-stats)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=azmatsiddique&repo=github-readme-stats)](https://github.com/azmatsiddique/github-readme-stats)
 ```
 
 ### Options
@@ -401,11 +401,11 @@ You can customize the appearance and behavior of the pinned repository card usin
 
 ### Demo
 
-![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=Pranesh-2005\&repo=github-readme-stats)
+![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=azmatsiddique\&repo=github-readme-stats)
 
 Use `show_owner` query option to include the repo's owner username
 
-![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=Pranesh-2005\&repo=github-readme-stats\&show_owner=true)
+![Readme Card](https://github-readme-stats-fast.vercel.app/api/pin/?username=azmatsiddique\&repo=github-readme-stats\&show_owner=true)
 
 # GitHub Gist Pins
 
@@ -457,10 +457,10 @@ The top languages card shows a GitHub user's most frequently used languages.
 
 Copy-paste this code into your readme and change the links.
 
-Endpoint: `api/top-langs?username=Pranesh-2005`
+Endpoint: `api/top-langs?username=azmatsiddique`
 
 ```md
-[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique)](https://github.com/azmatsiddique/github-readme-stats)
 ```
 
 ### Options
@@ -494,14 +494,14 @@ We use the following algorithm to calculate the languages percentages on the lan
 ranking_index = (byte_count ^ size_weight) * (repo_count ^ count_weight)
 ```
 
-By default, only the byte count is used for determining the languages percentages shown on the language card (i.e. `size_weight=1` and `count_weight=0`). You can, however, use the `&size_weight=` and `&count_weight=` options to weight the language usage calculation. The values must be positive real numbers. [More details about the algorithm can be found here](https://github.com/Pranesh-2005/github-readme-stats/issues/1600#issuecomment-1046056305).
+By default, only the byte count is used for determining the languages percentages shown on the language card (i.e. `size_weight=1` and `count_weight=0`). You can, however, use the `&size_weight=` and `&count_weight=` options to weight the language usage calculation. The values must be positive real numbers. [More details about the algorithm can be found here](https://github.com/azmatsiddique/github-readme-stats/issues/1600#issuecomment-1046056305).
 
 *   `&size_weight=1&count_weight=0` - *(default)* Orders by byte count.
 *   `&size_weight=0.5&count_weight=0.5` - *(recommended)* Uses both byte and repo count for ranking
 *   `&size_weight=0&count_weight=1` - Orders by repo count
 
 ```md
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&size_weight=0.5&count_weight=0.5)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&size_weight=0.5&count_weight=0.5)
 ```
 
 ### Exclude individual repositories
@@ -509,7 +509,7 @@ By default, only the byte count is used for determining the languages percentage
 You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repositories.
 
 ```md
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&exclude_repo=github-readme-stats,Pranesh-2005.github.io)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&exclude_repo=github-readme-stats,azmatsiddique.github.io)
 ```
 
 ### Hide individual languages
@@ -517,7 +517,7 @@ You can use the `&exclude_repo=repo1,repo2` parameter to exclude individual repo
 You can use `&hide=language1,language2` parameter to hide individual languages.
 
 ```md
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&hide=javascript,html)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&hide=javascript,html)
 ```
 
 ### Show more languages
@@ -525,7 +525,7 @@ You can use `&hide=language1,language2` parameter to hide individual languages.
 You can use the `&langs_count=` option to increase or decrease the number of languages shown on the card. Valid values are integers between 1 and 20 (inclusive). By default it was set to `5` for `normal` & `donut` and `6` for other layouts.
 
 ```md
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&langs_count=8)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&langs_count=8)
 ```
 
 ### Compact Language Card Layout
@@ -533,7 +533,7 @@ You can use the `&langs_count=` option to increase or decrease the number of lan
 You can use the `&layout=compact` option to change the card design.
 
 ```md
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&layout=compact)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&layout=compact)
 ```
 
 ### Donut Chart Language Card Layout
@@ -541,7 +541,7 @@ You can use the `&layout=compact` option to change the card design.
 You can use the `&layout=donut` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&layout=donut)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&layout=donut)](https://github.com/azmatsiddique/github-readme-stats)
 ```
 
 ### Donut Vertical Chart Language Card Layout
@@ -549,7 +549,7 @@ You can use the `&layout=donut` option to change the card design.
 You can use the `&layout=donut-vertical` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&layout=donut-vertical)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&layout=donut-vertical)](https://github.com/azmatsiddique/github-readme-stats)
 ```
 
 ### Pie Chart Language Card Layout
@@ -557,7 +557,7 @@ You can use the `&layout=donut-vertical` option to change the card design.
 You can use the `&layout=pie` option to change the card design.
 
 ```md
-[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&layout=pie)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&layout=pie)](https://github.com/azmatsiddique/github-readme-stats)
 ```
 
 ### Hide Progress Bars
@@ -565,32 +565,32 @@ You can use the `&layout=pie` option to change the card design.
 You can use the `&hide_progress=true` option to hide the percentages and the progress bars (layout will be automatically set to `compact`).
 
 ```md
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005&hide_progress=true)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique&hide_progress=true)
 ```
 
 ### Demo
 
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique)
 
 *   Compact layout
 
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005\&layout=compact)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique\&layout=compact)
 
 *   Donut Chart layout
 
-[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005\&layout=donut)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique\&layout=donut)](https://github.com/azmatsiddique/github-readme-stats)
 
 *   Donut Vertical Chart layout
 
-[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005\&layout=donut-vertical)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique\&layout=donut-vertical)](https://github.com/azmatsiddique/github-readme-stats)
 
 *   Pie Chart layout
 
-[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005\&layout=pie)](https://github.com/Pranesh-2005/github-readme-stats)
+[![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique\&layout=pie)](https://github.com/azmatsiddique/github-readme-stats)
 
 *   Hidden progress bars
 
-![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Pranesh-2005\&hide_progress=true)
+![Top Langs](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=azmatsiddique\&hide_progress=true)
 
 # WakaTime Stats Card
 
@@ -600,7 +600,7 @@ You can use the `&hide_progress=true` option to hide the percentages and the pro
 Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
 
 ```md
-[![Harlok's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=PraneshJs)](https://github.com/Pranesh-2005/github-readme-stats-fast)
+[![Harlok's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=azmatsiddique)](https://github.com/azmatsiddique/github-readme-stats-fast)
 ```
 
 ### Options
@@ -622,13 +622,13 @@ You can customize the appearance and behavior of the WakaTime stats card using t
 
 ### Demo
 
-![Harlok's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=PraneshJs)
+![Harlok's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=azmatsiddique)
 
-![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=PraneshJs\&hide_progress=true)
+![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=azmatsiddique\&hide_progress=true)
 
 *   Compact layout
 
-![Harlok's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=PraneshJs\&layout=compact)
+![Harlok's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=azmatsiddique\&layout=compact)
 
 ***
 
@@ -636,57 +636,57 @@ You can customize the appearance and behavior of the WakaTime stats card using t
 
 *   Default
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique)
 
 *   Hiding specific stats
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&hide=contribs,issues)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&hide=contribs,issues)
 
 *   Showing additional stats
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&show_icons=true\&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
 
 *   Showing icons
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&hide=issues\&show_icons=true)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&hide=issues\&show_icons=true)
 
 *   Shows GitHub logo instead rank level
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&rank_icon=github)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&rank_icon=github)
 
 *   Shows user rank percentile instead of rank level
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&rank_icon=percentile)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&rank_icon=percentile)
 
 *   Customize Border Color
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&border_color=2e4058)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&border_color=2e4058)
 
 *   Include All Commits
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&include_all_commits=true)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&include_all_commits=true)
 
 *   Themes
 
 Choose from any of the [default themes](#themes)
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&show_icons=true\&theme=radical)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&show_icons=true\&theme=radical)
 
 *   Gradient
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique\&bg_color=30,e96443,904e95\&title_color=fff\&text_color=fff)
 
 *   Customizing stats card
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api/?username=Pranesh-2005\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api/?username=azmatsiddique\&show_icons=true\&title_color=fff\&icon_color=79ff97\&text_color=9f9f9f\&bg_color=151515)
 
 *   Setting card locale
 
-![Pranesh's GitHub stats](https://github-readme-stats-fast.vercel.app/api/?username=Pranesh-2005\&locale=es)
+![Azmat's GitHub stats](https://github-readme-stats-fast.vercel.app/api/?username=azmatsiddique\&locale=es)
 
 *   Customizing repo card
 
-![Customized Card](https://github-readme-stats-fast.vercel.app/api/pin?username=Pranesh-2005\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
+![Customized Card](https://github-readme-stats-fast.vercel.app/api/pin?username=azmatsiddique\&repo=github-readme-stats\&title_color=fff\&icon_color=f9f9f9\&text_color=9f9f9f\&bg_color=151515)
 
 *   Gist card
 
@@ -702,7 +702,7 @@ Choose from any of the [default themes](#themes)
 
 *   WakaTime card
 
-![Harlok's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=PraneshJs)
+![Harlok's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=azmatsiddique)
 
 ***
 
@@ -713,22 +713,22 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 ### Stats and top languages cards
 
 ```html
-<a href="https://github.com/Pranesh-2005/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005" />
+<a href="https://github.com/azmatsiddique/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique" />
 </a>
-<a href="https://github.com/Pranesh-2005/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Pranesh-2005&layout=compact&langs_count=8&card_width=320" />
+<a href="https://github.com/azmatsiddique/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=azmatsiddique&layout=compact&langs_count=8&card_width=320" />
 </a>
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-<a href="https://github.com/Pranesh-2005/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api?username=Pranesh-2005" />
+<a href="https://github.com/azmatsiddique/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api?username=azmatsiddique" />
 </a>
-<a href="https://github.com/Pranesh-2005/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=Pranesh-2005&layout=compact&langs_count=8&card_width=320" />
+<a href="https://github.com/azmatsiddique/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=azmatsiddique&layout=compact&langs_count=8&card_width=320" />
 </a>
 
 </details>
@@ -736,22 +736,22 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 ### Pinning repositories
 
 ```html
-<a href="https://github.com/Pranesh-2005/github-readme-stats">
-  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Pranesh-2005&repo=github-readme-stats-fast" />
+<a href="https://github.com/azmatsiddique/github-readme-stats">
+  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=azmatsiddique&repo=github-readme-stats-fast" />
 </a>
-<a href="https://github.com/Pranesh-2005/convoychat">
-  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Pranesh-2005&repo=AI-Generated-Video-Detector" />
+<a href="https://github.com/azmatsiddique/convoychat">
+  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=azmatsiddique&repo=AI-Generated-Video-Detector" />
 </a>
 ```
 
 <details>
 <summary>:eyes: Show example</summary>
 
-<a href="https://github.com/Pranesh-2005/github-readme-stats">
-  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Pranesh-2005&repo=github-readme-stats-fast" />
+<a href="https://github.com/azmatsiddique/github-readme-stats">
+  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=azmatsiddique&repo=github-readme-stats-fast" />
 </a>
-<a href="https://github.com/Pranesh-2005/convoychat">
-  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=Pranesh-2005&repo=ai-generated-video-detector" />
+<a href="https://github.com/azmatsiddique/convoychat">
+  <img align="center" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=azmatsiddique&repo=ai-generated-video-detector" />
 </a>
 
 </details>
@@ -763,7 +763,7 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 ### :film\_projector: [Check Out Step By Step Video Tutorial By @codeSTACKr](https://youtu.be/n6d4KHSKqGk?t=107)
 
 
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/Pranesh-2005/github-readme-stats-fast)
+[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/azmatsiddique/github-readme-stats-fast)
 
 <details>
  <summary><b>:hammer_and_wrench: Step-by-step guide on setting up your own Vercel instance</b></summary>
@@ -797,10 +797,10 @@ By default, GitHub does not lay out the cards side by side. To do that, you can 
 
 1.  Fork or clone this repo as per your needs
 2.  Add `express` to the dependencies section of `package.json`
-    <https://github.com/Pranesh-2005/github-readme-stats/blob/ba7c2f8b55eac8452e479c8bd38b044d204d0424/package.json#L54-L61>
+    <https://github.com/azmatsiddique/github-readme-stats/blob/ba7c2f8b55eac8452e479c8bd38b044d204d0424/package.json#L54-L61>
 3.  Run `npm i` if needed (initial setup)
 4.  Run `node express.js` to start the server, or set the entry point to `express.js` in `package.json` if you're deploying on a managed service
-    <https://github.com/Pranesh-2005/github-readme-stats/blob/ba7c2f8b55eac8452e479c8bd38b044d204d0424/package.json#L11>
+    <https://github.com/azmatsiddique/github-readme-stats/blob/ba7c2f8b55eac8452e479c8bd38b044d204d0424/package.json#L11>
 5.  You're done 🎉
     </details>
 

@@ -69,13 +69,13 @@ function getCardUrl(type) {
   switch(currentType) {
     case 'core':
     case 'streak':
-      username = githubUsernameInput.value.trim() || "pranesh-2005";
+      username = githubUsernameInput.value.trim() || "azmatsiddique";
       break;
     case 'wakatime':
-      username = wakatimeUsernameInput.value.trim() || "praneshjs";
+      username = wakatimeUsernameInput.value.trim() || "azmatsiddique";
       break;
     case 'repo':
-      username = repoUsernameInput.value.trim() || "pranesh-2005";
+      username = repoUsernameInput.value.trim() || "azmatsiddique";
       repo = repoInput.value.trim() || "github-readme-stats-fast";
       break;
     case 'gist':
